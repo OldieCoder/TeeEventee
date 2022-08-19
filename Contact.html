@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<html charset="uf-8">
+
+<head>
+    <title>Contact Us</title>
+   <script src="myFunction.js"></script>
+    <style> 
+        textarea {
+            justify-content: center;
+            align-items: center;
+          width: 400px;
+          height: 150px;
+          padding: 12px 20px;
+          box-sizing: border-box;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          background-color: #f8f8f8;
+          font-size: 16px;
+          resize: none;
+        }
+
+        .forms {
+            width:400px;
+            height: 500px; 
+            padding: 12px 15px;
+            border: 2px solid red;
+            background-color: rgba(0, 0, 0, 0.911);
+                        display: block; 
+            margin: 170px auto;
+            max-width: 100%;
+            max-height: 100%;
+                    }
+
+                    label {
+                      color:blanchedalmond;
+                      font-size: 12px;
+                      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    }
+
+                    h2{
+                      font-family: Arial, Helvetica, sans-serif;
+                      color:brown;
+                      justify-content: center;
+                      align-items: center;
+                    }
+
+                    p{
+                      color: brown;
+                      font-size: 18px; 
+                      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+                    }
+
+                    #buttons{
+                    justify-content:center; align-items: center;
+                    display: block; 
+
+                    }
+
+        </style>
+</head>
+
+<body bgcolor: black;>
+
+
+    <div class="forms">
+
+    <h2>Fill the contact form below accurately</h2>
+
+<form>
+  <label for="fname">First Name</label><br>
+  <input type="text" id="fname" name="fname" value=""><br><br>
+  <label for="lname">Last Name</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+    <textarea>Drop your message here </textarea>
+    <input type="checkbox" id="lname" name="lname" value=""><p>I have read and accepted your terms and conditions.</p>
+<button type="button" id="buttons" onclick="myFunction">Submit Form</button>
+</form>
+
+</div>
+</body>
