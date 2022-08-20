@@ -62,43 +62,43 @@ img{
 
 
 .gal1{
-    background-image: url("toyin.jpeg");
+   <img src = "toyin.jpeg";>
   }
 
 .gal2{
-       background-image: url("toyin1.jpeg");
+        <img src = "toyin1.jpeg");>
    }
 .gal3{
   
     
-  background-image: url("hall.jpeg");
+  <img src = "hall.jpeg";>
  
 }
 
 .gal4{
  
-  background-image: url("hall1.jpeg");
+   <img src = "hall1.jpeg";>
 }
 
 .gal5{
-     background-image: url("biblecake.jpeg");
+      <img src = "biblecake.jpeg";>
    }
 
 .gal6{
-        background-image: url("hall.jpeg");
+         <img src = "hall.jpeg";>
    }
 .gal7{
-      background-image: url("hall1.jpeg");
+      <img src = "hall1.jpeg";>
 }
 
 .gal8{
  
-    background-image: url("fullcake.jpeg");
+     <img src = "fullcake.jpeg";>
 }
 
 .gal9{
   
- background-image: url("weddingseat.jpeg");
+  <img src = "weddingseat.jpeg";>
 }
 
 
